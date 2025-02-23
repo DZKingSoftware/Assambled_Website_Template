@@ -22,6 +22,9 @@ a {
 h1 {
     font-family: var(--roboto) !important;
 }
+[data-aos] {
+    overflow-x: hidden;
+}
 /* Spinner */
 #spinner {
     width: 100%;
@@ -278,10 +281,10 @@ h1 {
     align-items: center;
     justify-content: center;
     overflow-x: hidden;
-    width: 100%;
+    width: 100vw;
 }
 #logos .logos-card {
-    min-width: 150%;
+    min-width: 150vw;
     animation: clone 10s linear infinite;
     padding-right: 50px;
 }
@@ -298,7 +301,7 @@ h1 {
 }
 @media screen and (max-width: 1400px) {
     #logos .logos-card {
-        min-width: 160%;
+        min-width: 160vw;
     }
 }
 @media screen and (max-width: 1200px) {
@@ -519,20 +522,6 @@ hr {
         width: 100%;
     }
 }
-/* @media screen and (max-width: 500px) {
-    #accurate .accurate-cards .accurate-card .accurate-card-sxema .accurate-card-sxema-volume-numbers .accurate-card-sxema-number {
-        max-height: 40px;
-        padding: 10px;
-        overflow: hidden;
-        cursor: pointer;
-    }
-    #accurate .accurate-cards .accurate-card .accurate-card-sxema .accurate-card-sxema-volume-numbers .res {
-        max-height: 200px !important;
-    }
-    #accurate .accurate-cards .accurate-card .accurate-card-sxema .accurate-card-sxema-volume-numbers .accurate-card-sxema-number p {
-        margin-top: 0px;
-    }
-} */
 @media screen and (max-width: 420px) {
     #accurate .accurate-cards .accurate-card .accurate-card-sxema .accurate-card-sxema-volume .accurate-card-sxema-volume-sxema .accurate-card-sxema-volume-sxema-week {
         display: block;
@@ -845,7 +834,7 @@ hr {
     justify-content: center;
 }
 #carusel .carusel-cards {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));

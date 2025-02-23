@@ -43,35 +43,6 @@ function LogosClone() {
 
 LogosClone();
 
-// Accurate
-
-// function Accurate() {
-//     const AccurateNumberCard = document.querySelectorAll('.accurate-card-sxema-number').forEach(Accurate => {
-//         Accurate.addEventListener('click', () => {
-//             if(!AccurateNumberCard) {
-//                 Accurate.classList.add('res');
-//             } else {
-//                 Accurate.classList.remove('res');
-//             }
-//         })
-//     })
-// }
-
-// Accurate()
-
-// Glide Carusel
-
-// document.addEventListener("DOMContentLoaded", function() {
-//     new Glide('.glide', {
-//         type: 'carousel', // Karusel rejimi
-//         autoplay: 3000, // 3 soniyada bir marta o'zgaradi
-//         hoverpause: false, // Sichqoncha ustiga kelganda to'xtamaydi
-//         animationDuration: 800, // Animatsiya davomiyligi
-//         perView: 1, // Bir vaqtning o'zida faqat 1 ta ko'rsatiladi
-//         loop: true // Cheksiz davom etadi
-//     }).mount();
-// });
-
 // Footer
 
 function Footer() {
@@ -84,4 +55,4 @@ function Footer() {
             }
         })
     })
-}
+};
