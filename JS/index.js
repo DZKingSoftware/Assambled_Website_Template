@@ -47,12 +47,15 @@ LogosClone();
 
 function Footer() {
     const footer = document.querySelectorAll('.footer-card.res').forEach(footer => {
+        footer.style.maxHeight = '40px'
         footer.addEventListener('click', () => {
-            if(!footer.style.maxHeight) {
+            if(footer.style.maxHeight == '40px') {
                 footer.style.maxHeight = '150px'
             } else {
-                footer.style.maxHeight = ''
+                footer.style.maxHeight = '40px'
             }
         })
     })
 };
+
+Footer()
