@@ -59,24 +59,18 @@ LogosClone();
 
 // Accurate()
 
-// Owel Carusel
-$(document).ready(function(){
-    $(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            autoplay: true,
-            autoplayTimeout: 3000,
-            autoplayHoverPause: true,
-            responsive:{
-                0:{ items:1 }, 
-                600:{ items:2 },
-                1000:{ items:3 }
-            }
-        });
-    });
-});
+// Glide Carusel
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     new Glide('.glide', {
+//         type: 'carousel', // Karusel rejimi
+//         autoplay: 3000, // 3 soniyada bir marta o'zgaradi
+//         hoverpause: false, // Sichqoncha ustiga kelganda to'xtamaydi
+//         animationDuration: 800, // Animatsiya davomiyligi
+//         perView: 1, // Bir vaqtning o'zida faqat 1 ta ko'rsatiladi
+//         loop: true // Cheksiz davom etadi
+//     }).mount();
+// });
 
 // Footer
 
