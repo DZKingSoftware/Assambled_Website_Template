@@ -701,6 +701,9 @@ hr {
     #about .about-cards .about-card.one {
         width: 100%;
     }
+    #about .about-cards .about-card .about-bg {
+        display: none;
+    }
     #about .about-cards .about-card.one img {
         width: 100%;
     }
@@ -729,6 +732,7 @@ hr {
     padding: 50px;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
 }
 #empower .empower-cards .empower-card .empower-card-c .empower-card-calendar {
     display: flex;
@@ -791,6 +795,9 @@ hr {
         flex-direction: column;
         justify-content: center;
     }
+    #empower .empower-cards .empower-card .empower-card-c .empower-card-alls {
+        overflow: hidden;
+    }
 }
 @media screen and (max-width: 776px) {
     #empower .empower-cards .empower-card .empower-card-c .empower-card-alls {
@@ -799,6 +806,11 @@ hr {
     #empower .empower-cards .empower-card .empower-card-c .empower-card-alls .empower-card-bg {
         width: 100%;
         left: 0; right: 0; top: 0;
+    }
+}
+@media screen and (max-width: 776px) {
+    #empower .empower-cards .empower-card .empower-card-c .empower-card-alls .empower-card-bg {
+        display: none;
     }
 }
 @media screen and (max-width: 600px) {
