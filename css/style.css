@@ -26,9 +26,6 @@ a {
 h1 {
     font-family: var(--roboto) !important;
 }
-[data-aos] {
-    overflow-x: hidden;
-}
 /* Spinner */
 #spinner {
     width: 100%;
@@ -402,7 +399,6 @@ h1 {
 }
 #accurate .accurate-cards .accurate-card .accurate-card-sxema {
     width: 700px;
-    /* height: 430px; */
 }
 #accurate .accurate-cards .accurate-card .accurate-card-sxema .accurate-card-sxema-search {
     display: flex;
@@ -547,7 +543,6 @@ hr {
     position: relative;
 }
 #table .table-cards .table-card.two {
-    /* background-color: red; */
     width: 1000px;
     margin: 0 auto;
 }
@@ -565,7 +560,6 @@ hr {
     height: 510px;
     position: absolute;
     left: 0px; top: -10px;
-    /* transform: translateX(50%); */
     border: 1px solid var(--black-color);
 }
 #table .table-cards .table-card  .table-card-bg.one {
@@ -654,7 +648,6 @@ hr {
 /* About */
 #about {
     margin: 50px 0;
-    overflow: hidden;
 }
 #about .about-cards {
     display: flex;
@@ -689,6 +682,9 @@ hr {
     color: #A9B0BE;
 }
 @media screen and (max-width: 992px) {
+    #about {
+        overflow: hidden;
+    }
     #about .about-cards {
         flex-direction: column-reverse;
         text-align: center;
